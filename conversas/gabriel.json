@@ -1,0 +1,42 @@
+[
+    {
+        "role": "user",
+        "content": "Meu nome é Gabriel."
+    },
+    {
+        "role": "assistant",
+        "content": "Olá, Gabriel! Seja bem-vindo à Clínica Demo. Em que posso ajudar você hoje?"
+    },
+    {
+        "role": "user",
+        "content": "Qual é meu nome?"
+    },
+    {
+        "role": "assistant",
+        "content": "Olá, Gabriel! Pelo que você informou, seu nome é Gabriel. Como posso ajudar você hoje?"
+    },
+    {
+        "role": "user",
+        "content": "Meu nome é Gabriel."
+    },
+    {
+        "role": "assistant",
+        "content": "Olá novamente, Gabriel! Fico à disposição para ajudar no que você precisar na Clínica Demo. Como posso assisti-lo hoje?"
+    },
+    {
+        "role": "user",
+        "content": "Qual é o horário de atendimento?"
+    },
+    {
+        "role": "assistant",
+        "content": "O horário de atendimento da Clínica Demo é de segunda a sexta, das 08h às 18h. Posso ajudar com mais alguma informação?"
+    },
+    {
+        "role": "user",
+        "content": "Qual é o meu nome?"
+    },
+    {
+        "role": "assistant",
+        "content": "Seu nome é Gabriel, conforme você informou anteriormente. Posso ajudar em mais alguma coisa?"
+    }
+]

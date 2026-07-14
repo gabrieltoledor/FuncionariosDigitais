@@ -1,0 +1,18 @@
+[
+    {
+        "role": "user",
+        "content": "Meu nome é Gabriel."
+    },
+    {
+        "role": "assistant",
+        "content": "Olá, Gabriel! Como posso ajudar você hoje na Clínica Demo?"
+    },
+    {
+        "role": "user",
+        "content": "Qual é o meu nome?"
+    },
+    {
+        "role": "assistant",
+        "content": "Olá, Gabriel! Seu nome foi informado anteriormente na conversa. Posso ajudar em algo mais na Clínica Demo?"
+    }
+]

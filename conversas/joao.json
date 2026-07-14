@@ -1,0 +1,10 @@
+[
+    {
+        "role": "user",
+        "content": "Qual é meu nome?"
+    },
+    {
+        "role": "assistant",
+        "content": "Olá! Não tenho acesso ao seu nome no momento. Posso ajudar em algo relacionado à Clínica Demo?"
+    }
+]

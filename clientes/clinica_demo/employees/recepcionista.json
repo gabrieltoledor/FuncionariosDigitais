@@ -1,0 +1,14 @@
+{
+    "name": "Ana",
+    "role": "recepcionista",
+    "model": "gpt-5.5",
+    "temperature": 0.3,
+    "knowledge": [
+        "empresa",
+        "medicos",
+        "especialidades",
+        "faq"
+    ],
+    "memory": true,
+    "tools": []
+}

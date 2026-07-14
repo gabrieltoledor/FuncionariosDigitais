@@ -1,0 +1,34 @@
+[
+    {
+        "role": "user",
+        "content": "Quais especialidades a clínica atende?"
+    },
+    {
+        "role": "assistant",
+        "content": "Olá! A Clínica Demo atende às seguintes especialidades: Cardiologia, Dermatologia e Ortopedia. Posso ajudar em mais alguma informação?"
+    },
+    {
+        "role": "user",
+        "content": "Quais especialidades a clínica atende?"
+    },
+    {
+        "role": "assistant",
+        "content": "A Clínica Demo atende as especialidades de Cardiologia, Dermatologia e Ortopedia. Posso ajudar com mais alguma informação?"
+    },
+    {
+        "role": "user",
+        "content": "Quais especialidades a clínica atende?"
+    },
+    {
+        "role": "assistant",
+        "content": "A Clínica Demo oferece atendimento nas especialidades de Cardiologia, Dermatologia e Ortopedia. Se precisar de mais alguma informação, estou à disposição!"
+    },
+    {
+        "role": "user",
+        "content": "Quais especialidades a clínica atende?"
+    },
+    {
+        "role": "assistant",
+        "content": "A Clínica Demo atende nas especialidades de Cardiologia, Dermatologia e Ortopedia. Se desejar, posso ajudá-lo com agendamentos ou outras informações."
+    }
+]

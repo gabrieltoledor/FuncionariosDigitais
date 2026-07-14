@@ -1,8 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from src.services.client_registry import get_company_by_phone
-from src.services.employee_factory import EmployeeFactory
+from src.models.digital_employee import DigitalEmployee
 
 app = FastAPI(
     title="Funcionários Digitais",
@@ -11,9 +10,8 @@ app = FastAPI(
 
 
 class Message(BaseModel):
-    phone: str
-    user_id: str
     message: str
+    user_id: str
 
 
 @app.get("/")
@@ -27,16 +25,9 @@ def home():
 @app.post("/chat")
 def chat(data: Message):
 
-    company = get_company_by_phone(data.phone)
-
-    if company is None:
-        return {
-            "response": "Empresa não encontrada."
-        }
-
-    employee = EmployeeFactory.create(
-        company=company,
-        employee="recepcionista",
+    employee = DigitalEmployee(
+        company="clinica_demo",
+        role="recepcionista",
     )
 
     response = employee.chat(
